@@ -83,6 +83,7 @@ const Quiz = () => {
           clearTimeout(nextQuestionTimer);
         };
       }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentQuestion, quizFinished, answered]);
   
     const handleNextQuestion = () => {
@@ -111,7 +112,7 @@ const Quiz = () => {
   
       setAnswered(true); // Mark as answered
   
-      setTimeout(() => handleNextQuestion(), 1000); //Go to next question after 1 second
+      setTimeout(() => handleNextQuestion(), 1000); // 1 saniye sonra sonraki soruya geç
     };
   
     const correctCount = answers.filter(answer => answer.correct).length;
