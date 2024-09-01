@@ -3,3 +3,7 @@ There are 10 questions in total in this project and an informational message is 
 
 # What technologies were used
 HTML,CSS,JAVASCRIPT,REACT
+
+# Live site
+https://questions-app-as.netlify.app/
+
